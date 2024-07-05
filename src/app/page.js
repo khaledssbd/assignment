@@ -1,10 +1,13 @@
 import { IoIosLock } from 'react-icons/io';
+import { FaCircle } from 'react-icons/fa';
 
 export default function Home() {
   return (
     <main className="bg-[#323232]">
-      <header className="h-20">
-        <h4>Course</h4>
+      <header className="h-20 mb-40 border-b borer-white">
+        <div className="flex flex-row justify-end items-center gap-3 px-40 py-8">
+          <FaCircle /> <h5>Course</h5>
+        </div>
       </header>
       <div className="grid grid-cols-3 h-screen gap-20">
         <div className="col-span-2 flex flex-col justify-center items-center bg-[#222124] h-1/2 w-full">
